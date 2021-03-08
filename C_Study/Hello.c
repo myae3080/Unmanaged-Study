@@ -35,6 +35,8 @@ int main(void) {
 	printf("입력 받은 값 : %d\n", num);
 	printf("입력 받은 값 : %d\n", shNum);
 	printf("입력 받은 값 : %s\n", name);
+
+	sizeOfFunc();
 	
 	system("pause");
 
