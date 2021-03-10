@@ -7,11 +7,11 @@
 #include <stdio.h>
 #include <string.h>
 
-void dataTypeIOFunc() {
+void DataTypeIOFunc() {
 	printf("%s\n", "dataTypeIOFunc ===================================");
 
 	int num;
-	short shNum;
+	short short_num;
 	char name[20];
 	char animal[20] = "monkey";
 
@@ -30,16 +30,16 @@ void dataTypeIOFunc() {
 	scanf("%d", &num);
 	// Using %d cause severe error.
 	//scanf_s("%hd", &shNum);
-	scanf("%hd", &shNum);
+	scanf("%hd", &short_num);
 
 	scanf("%s", name);
 
 	printf("입력 받은 값 : %d\n", num);
-	printf("입력 받은 값 : %d\n", shNum);
+	printf("입력 받은 값 : %d\n", short_num);
 	printf("입력 받은 값 : %s\n", name);
 }
 
-void sizeOfFunc() {
+void SizeOfFunc() {
 	printf("%s\n", "sizeOfFunc ===================================");
 
 	printf("%d\n", sizeof(int));

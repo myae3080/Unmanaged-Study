@@ -1,9 +1,9 @@
 int main(void) {
-	dataTypeIOFunc();
+	DataTypeIOFunc();
 
 	printf("\n");
 
-	sizeOfFunc();
+	SizeOfFunc();
 
 	system("pause");
 
