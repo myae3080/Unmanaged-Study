@@ -4,7 +4,7 @@ int main(void) {
 	printf("\n");
 
 	sizeOfFunc();
-	
+
 	system("pause");
 
 	return 0;
