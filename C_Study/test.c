@@ -42,6 +42,6 @@ void DataTypeIOFunc() {
 void SizeOfFunc() {
 	printf("%s\n", "sizeOfFunc ===================================");
 
-	printf("%d\n", sizeof(int));
-	printf("%d\n", sizeof(10));
+	// printf("%d\n", sizeof(int));
+	// printf("%d\n", sizeof(10));
 }
