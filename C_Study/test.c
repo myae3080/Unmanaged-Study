@@ -10,6 +10,9 @@
 void DataTypeIOFunc() {
 	printf("%s\n", "dataTypeIOFunc ===================================");
 
+	// 변수는 snake case 사용.
+	// 전역 변수 는 g_sth 사용.
+	// 상수는 k로 시작하고 camel case 사용.
 	int num;
 	short short_num;
 	char name[20];
